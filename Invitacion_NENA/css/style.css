@@ -1,0 +1,59 @@
+body {
+  
+    font-family:  Caudex, sans-serif;
+    text-align: center;
+    color: #f30bc5;
+    font-size: 2.0em;
+    animation: slideIn 5s ease-out;
+}
+.boton{
+    border-radius: 25%;
+    background-color: #f30b0b;
+    box-shadow: 0px 4px 8px rgba(194, 32, 32, 0.1);
+   font-size: 55%;
+}
+
+
+
+.invitation {
+    
+    padding: 20px;
+    border-radius: 55px;
+    box-shadow: 0px 4px 8px rgba(194, 32, 32, 0.1);
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+    animation: fadeIn 15s;
+    width: 50%;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-image:url(../multimedia/nena.jfif);
+       background-position-y: 5%;
+       opacity: 2;
+ 
+
+}
+
+.title {
+    color: #f30bc5;
+    font-size: 3.0em;
+    animation: slideIn 5s ease-out;
+
+    margin-top: 1px;
+}
+
+.event-details, .date-time, .address {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
