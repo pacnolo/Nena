@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta Neni</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <section class="banner">
+        <div class="invitation">
+            <h1 class="title">Mis casi 30 años</h1>
+
+            <p>Este 09 de mayo a las 5:00 PM</p>
+            <p>
+                Te espero en la Casa Máma Chofi 
+                <a href="https://maps.app.goo.gl/8y9aGkwA9M5S8pocA" target="_blank">
+                    <img class="imgMapa" src="multimedia/ubicaciones.png" alt="Ubicación" width="70" height="70">
+                </a>
+            </p>   
+
+            <audio src="./assets/WhatsApp Audio 2024-08-13 at 10.11.43 AM.mp4" controls autoplay>
+                Tu navegador no soporta audio HTML5.
+            </audio>
+
+            <button class="boton" id="rsvp-btn">Confirma PLEASE!!</button>
+        </div>
+    </section>
+
+    <!-- Corrige el script: estaba mal enlazado -->
+    <script>
+        document.getElementById('rsvp-btn').addEventListener('click', function () {
+            alert('¡Gracias por confirmar! 🎉');
+        });
+    </script>
+
+</body>
+</html>
